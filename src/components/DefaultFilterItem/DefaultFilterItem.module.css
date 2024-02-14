@@ -1,0 +1,35 @@
+.filter_item {
+  width: min-content;
+  display: flex;
+  white-space: nowrap;
+  height: 30px;
+  align-items: center;
+  gap: 6px;
+  border-radius: 8px;
+  font-family: Titillium Web, serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  padding: 4px 12px 4px 8px;
+  border: 1.5px solid  #F0F0F0;
+  background:  #FFF;
+  color:  #9F9F9F;
+  transition: .2s;
+}
+
+.filter_item:hover {
+  border-color: #D9BF98;
+  color: #737373;
+}
+
+.filter_add_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  background-color: #FFF;
+}

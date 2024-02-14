@@ -1,0 +1,90 @@
+.wrapper_Login_page{
+    width: 100%;
+    height:100vh;
+    background-image:url(../../images/Background.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:bottom;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.logo{
+    width: 192px;
+    height: 62px;
+    background-image:url(../../images/Logo.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:contain;
+    position: absolute;
+    top: 40px;
+    left: 64px;
+}
+.messeges{
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    background-image:url(../../images/Messages.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:auto;
+    position: absolute;
+    bottom: 32px;
+    left: 72px;
+    border-radius:4px;
+    border: none;
+}
+
+.messeges:hover::after{
+    content: "Contuct us";
+    position: absolute;
+    top: -35px;
+    left: -6px;
+    font-size: 12px;
+    font-weight: 700;
+    background-color:gray;
+    display: flex;
+    padding: 5px;
+    width: 66px;
+    justify-content: center;
+    align-items:center;
+    border-radius:4px;
+}
+.messeges:hover:before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 13px solid gray;
+    position: absolute;
+    top: -14px;
+    z-index: 2;
+}
+
+.form{
+    background-color: #FFFFFF80 ;
+    width: 47%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+} 
+.form_content{
+    border-radius:8px;
+    background-color:rgb(255, 255, 255);
+}
+
+@media (max-width: 1150px) {
+    .wrapper_Login_page{
+        justify-content: center;
+    }
+    .logo{
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .form{
+        width: auto;
+        height: auto;
+    }
+}

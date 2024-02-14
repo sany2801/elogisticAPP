@@ -1,0 +1,53 @@
+.draftMenu {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.dots {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: .2s;
+}
+
+.dots:hover {
+  opacity: 1;
+}
+
+.subMenu {
+  position: absolute;
+  top: 25px;
+  left: -88px;
+  z-index: 10;
+  display: inline-flex;
+  padding: 8px 6px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  border-radius: 4px;
+  border: 1px solid var(--Grey-50, #F0F0F0);
+  background: var(--white, #FFF);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.04);
+}
+
+.menuItm {
+  white-space: nowrap;
+  cursor: pointer;
+  display: flex;
+  width: min-content;
+  padding: 6px 8px;
+  align-items: center;
+  gap: 8px;
+  color: var(--Grey-800, #0F0F0F);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+}
+
+.red {
+  color: #D83F3F;
+}

@@ -1,0 +1,27 @@
+.day {
+  cursor: pointer;
+  display: flex;
+  width: 36px;
+  height: 36px;
+  padding: 8px 6px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 2px;
+  color:  #3F3F3F;
+  font-family: Noto Sans, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.day:hover {
+  border: 1px solid #D0AC80;
+}
+
+.selected{
+  background-color: #D0AC80;
+  color: white;
+}

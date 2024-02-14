@@ -1,0 +1,29 @@
+.deleteAccountForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.deleteAccountHeader {
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 24px;
+}
+
+.deleteAccountText {
+  margin-bottom: 32px;
+  font-size: 16px;
+}
+
+.deleteAccountButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.deleteAccountButtons button {
+  width: 196px;
+  border-radius: 4px;
+}
+

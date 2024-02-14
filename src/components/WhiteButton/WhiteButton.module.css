@@ -1,0 +1,29 @@
+.white_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: .2s;
+  border: 1px solid #F0F0F0;
+  color: #3F3F3F;
+  background-color: #FFF;
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+}
+
+.white_button:hover {
+  border-color: #CFCFCF;
+}
+
+.white_button:disabled,
+.white_button:disabled:hover {
+  color: #9F9F9F;
+  background-color: #F0F0F0;
+  border-color: #F0F0F0;
+  cursor: default;
+}

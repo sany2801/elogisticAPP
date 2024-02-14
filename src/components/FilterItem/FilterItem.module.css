@@ -1,0 +1,128 @@
+strong{
+  font-weight: bold;  /*fix for Firefox browser*/
+}
+
+.extended_filter_item {
+  width: min-content;
+  display: flex;
+  white-space: nowrap;
+  height: 30px;
+  align-items: center;
+  gap: 6px;
+  border-radius: 8px;
+  font-family: Titillium Web, serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+}
+
+.extended_filter_item {
+  position: relative;
+  padding: 4px 8px;
+  color:  #FFF;
+  border: 1px solid  #F0F0F0;
+  background:  #D0AC80;
+}
+
+.filter_checkboxes_wrap {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  display: flex;
+  width: min-content;
+  padding: 12px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 1000;
+  gap: 16px;
+  border-radius: 8px;
+  border: 1px solid  #F0F0F0;
+  background:  #FFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+}
+
+.filter_checkboxes_wrap label {
+  color: #737373;
+  font-family: Noto Sans, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.filter_checkboxes_wrap label:hover,
+.checked {
+  color: #0F0F0F;
+}
+
+.filter_checkboxes_wrap input {
+  display: none;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.filter_checkboxes_wrap p {
+  color: #000;
+  font-family: Titillium Web, serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+}
+
+.filter_clear_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  background-color: #D0AC80;
+  transition: .2s;
+}
+
+.horizont_line {
+  width: 100%;
+  height: 1px;
+  background: #F0F0F0;
+}
+
+.vertical_line {
+  height: 20px;
+  width: 1px;
+  background:  #FFF;
+}
+
+.filters_name {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.overcount {
+  color:  #D0AC80;
+  font-family: Titillium Web, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0.17px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  width: 22px;
+  height: 22px;
+  justify-content: center;
+  align-items: center;
+}

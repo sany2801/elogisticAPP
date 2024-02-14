@@ -1,0 +1,151 @@
+#filters_wrap {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: min-content;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+#clear_btn {
+  cursor: pointer;
+  flex-wrap: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #737373;
+  font-family: Titillium Web, serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+  transition: .2s;
+}
+
+#clear_btn img {
+  opacity: .6;
+  transition: .2s;
+}
+
+#clear_btn span {
+  white-space: nowrap;
+}
+
+#clear_btn:hover {
+  color: #0F0F0F;
+}
+
+#clear_btn:hover img {
+  opacity: 1;
+}
+
+#blank_space {
+  height: 50px;
+}
+
+.status_new {
+  color: #205CB6;
+  background-color: #D8E8FC;
+}
+
+.statu_in_progress {
+  color: #B1881D;
+  background-color: #FCF4D9;
+}
+
+.status_awaiting_payment {
+  color: #868686;
+  background-color: #F0F0F0;
+}
+
+.status_paid {
+  color: #3D910A;
+  background-color: #DEFCD9;
+}
+
+.status_accepted {
+  color: #CB7E24;
+  background-color: #FCECDA;
+}
+
+.status_in_transit {
+  color: #BC108C;
+  background-color: #FCDAF2;
+}
+
+.status_complete {
+  color: #593C96;
+  background-color: #E1DAFC;
+}
+
+.status_failed {
+  color: #D83F3F;
+  background-color: #F9E1E1;
+}
+
+#no_value_wrap {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  color: #B7B7B7;
+  font-family: Titillium Web, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+#subtext {
+  font-family: Noto Sans, serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.status_new,
+.statu_in_progress,
+.status_awaiting_payment,
+.status_paid,
+.status_accepted,
+.status_in_transit,
+.status_complete,
+.status_failed {
+  width: min-content;
+  padding: 2px 7px;
+  border-radius: 4px;
+}
+
+.headerCell,
+.bodyCell {
+  white-space: nowrap;
+  vertical-align: middle;
+  text-align: left;
+  height: 48px;
+  width: 14%;
+  border-bottom: 2px solid #F0F0F0 !important;
+}
+
+.th_wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.trNumber {
+  width: 18%;
+}
+
+.headerCell {
+  border-top: 2px solid #F0F0F0;
+  cursor: pointer;
+}
+
+.headerCell:hover .defaultArrows {
+  opacity: 1;
+}

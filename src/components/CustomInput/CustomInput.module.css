@@ -1,0 +1,37 @@
+.customInpWrap {
+  position: relative;
+}
+
+.customInpTitle {
+  position: absolute;
+  top: -18px;
+  color:  #747474;
+  font-family: Titillium Web, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.customInp {
+  width: 357px;
+  border-bottom: 1px solid #878787;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  transition: .2s;
+  padding-bottom: 5px;
+  color:  #161616;
+  font-family: Noto Sans, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.customInp:focus {
+  border-bottom: 1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}

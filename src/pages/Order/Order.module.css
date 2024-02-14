@@ -1,0 +1,54 @@
+#order_wrap {
+  min-height: 100vh;
+  padding: 30px 112px 30px 112px;
+  background:  #FAFAFA;
+}
+
+#order_header{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 32px;
+}
+
+#header_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+#order_header button {
+  color: #161616;
+  font-family: Noto Sans, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+}
+
+#header_bottom {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+}
+
+.dot {
+  width: 4px;
+  height: 4px;
+  background-color: #CFCFCF;
+  border-radius: 50%;
+}
+
+.orders_link {
+  background-color: transparent;
+  color:  #CFCFCF;
+  font-family: Noto Sans, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.active_link {
+  color: #747474;
+}

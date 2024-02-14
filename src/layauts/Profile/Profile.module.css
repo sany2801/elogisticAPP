@@ -1,0 +1,50 @@
+/* Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.content_info {
+  width: 100%;
+  padding: 40px 24px;
+}
+
+.header_home_page {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_tittle {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.header_btn-logout {
+  border-radius: 4px;
+  border: 1px solid  #F0F0F0;
+  cursor: pointer;
+  color:  #3F3F3F;
+  font-family: Noto Sans, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+}
+
+#head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+}

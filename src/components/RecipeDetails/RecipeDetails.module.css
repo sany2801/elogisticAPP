@@ -1,0 +1,8 @@
+#btnWrp {
+  display: flex;
+  justify-content: space-between;
+}
+
+#emptySpace {
+  height: 24px;
+}

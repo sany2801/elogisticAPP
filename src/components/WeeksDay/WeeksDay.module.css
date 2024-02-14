@@ -1,0 +1,15 @@
+.dayOfTheWeek {
+  display: flex;
+  width: 36px;
+  height: 30px;
+  padding: 0 2px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #575757;
+  font-family: Titillium Web, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}

@@ -1,0 +1,26 @@
+strong{
+  font-weight: bold;  /*fix for Firefox browser*/
+}
+
+#date_to,
+#date_from {
+  width: 130px;
+  color:  #0F0F0F;
+  font-family: Noto Sans, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.date_input {
+  padding-left: 3px;
+}
+
+.date_field {
+  margin-top: 10px;
+}
+
+.date_wrap {
+  margin-bottom: 14px;
+}

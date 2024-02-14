@@ -1,0 +1,10 @@
+#chatWrap {
+  position: fixed;
+  top: 70%;
+  left: 60%;
+}
+
+#chat {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,46 @@
+.sender_modal_defAddress {
+  width: 350px;
+  cursor: pointer;
+  display: flex;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 4px;
+  border: 1px solid  #CFCFCF;
+  background:  #FFF;
+}
+
+.sender_modal_defAddress:hover {
+  border-color: #E8D9C0;
+}
+
+.sender_modal_address {
+  white-space: nowrap;
+  color:  #161616;
+  font-family: Noto Sans, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.horiz_line {
+  background-color: #F0F0F0;
+  height: 1px;
+  width: 100%;
+}
+
+.sender_modal_elevator {
+  color:  #878787;
+  font-family: Titillium Web, serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.17px;
+  text-transform: uppercase;
+}

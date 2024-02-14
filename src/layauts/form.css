@@ -1,0 +1,139 @@
+  @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+a{
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color:#161616;
+}
+  .form_wrapper{
+    width: 408px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    position: relative;
+}
+.tittle_form{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 48px;
+}
+.tittle_form h3{
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.social_button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.social_button button{
+    width: 196px;
+    padding: 11px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color:transparent;
+    border: 1px solid  #F0F0F0;
+    border-radius: 4px;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.logoBtn{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Google-logoBtn{
+    background-image: url(../images/GoogleIcon.png);
+}
+.Apple-logoBtn{
+    background-image:url(../images/AppleIcon.png)
+}
+.container{
+    position: relative;
+    margin-bottom: 32px;
+}
+hr{
+    position: absolute;
+    height: 1px;
+    border: none;
+    width: 100%;
+    background-color:#F0F0F0;
+    top: 0;
+}
+.or{
+    position: absolute;
+    top: -8px;
+    left: 45%;
+    background-color: white;
+    padding: 0 16px;
+    font-size: 14px;
+    color: #747474;
+}
+.formSignIn{
+    display: flex;
+    flex-direction: column;
+}
+.formSubmit{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    background-color:#D0AC80;
+    color: white;
+    margin-bottom: 16px;
+
+}
+.formSubmit:disabled{
+    background-color:#F4EDE0;
+}
+
+
+.form_discription{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    color: #747474;
+    line-height: 14px;
+    margin-bottom: 24px;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+.forgot_btn{
+    position: absolute;
+    right: 0;
+    top: 306px;
+
+}
+
+.messege_error{
+    display: none;
+}
+.messege_error_active{
+    display: block;
+    color:#D83F3F;
+    font-weight:600;
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 24px;
+}
+.discripton_madal{
+    margin-bottom: 32px;
+    line-height: 20px;
+    font-size: 16px;
+    width: 360px;
+}
+.tittle_modal{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}

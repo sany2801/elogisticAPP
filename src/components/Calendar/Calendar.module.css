@@ -1,0 +1,68 @@
+#calTitle {
+  color:  #0F0F0F;
+  font-family: Titillium Web, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  white-space: nowrap;
+  margin-bottom: 32px;
+}
+
+#calendarContent {
+  margin-bottom: 32px;
+  display: flex;
+  gap: 40px;
+}
+
+#calendar {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  gap: 12px;
+}
+
+#calendarHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#calendarHeaderText {
+  color:  #0F0F0F;
+  font-family: Noto Sans, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+#calendarHeader img {
+  cursor: pointer;
+}
+
+#verticalLine {
+  width: 1px;
+  background:  #F0F0F0;
+}
+
+#time {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: stretch;
+}
+
+.row {
+  display: flex;
+  padding: 0px 3px;
+  align-items: center;
+  align-self: stretch;
+}
+
+#calButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}

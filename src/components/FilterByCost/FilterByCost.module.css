@@ -1,0 +1,99 @@
+strong{
+  font-weight: bold;  /*fix for Firefox browser*/
+}
+
+#inputs {
+  color:  #747474;
+  font-family: Titillium Web, serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.06px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+#inputs input {
+  color:  #0F0F0F;
+  font-family: Noto Sans, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  border: none;
+  border-bottom: 1px solid #B7B7B7;
+  display: unset;
+  padding-bottom: 6px;
+  margin-bottom: 4px;
+}
+
+#inputs input:focus {
+  border-color: #D9BF98;
+}
+
+.input_wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.dollar {
+  position: absolute;
+  top: 0;
+  left: 7px;
+  color:  #0F0F0F;
+  font-family: Noto Sans, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.cost_value{
+  padding-left: 17px;
+}
+
+.cost_inputs{
+  margin-bottom: 10px;
+}
+
+#defis {
+  width: 12px;
+  height: 1px;
+  background:  #878787;
+}
+
+#value_from,
+#value_to {
+  width: 120px;
+}
+
+#buttons_wrap {
+  display: flex;
+  gap: 16px;
+}
+
+.my-slider,
+.my-slider-track {
+  color: #D0AC80;
+}
+
+.my-slider-thumb {
+  color: white;
+  border: 1px solid  #F0F0F0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+}
+
+.my-slider-rail {
+  background-color: #F0F0F0 !important;
+}
+
+.my-slider:hover .MuiSlider-thumb,
+.my-slider:hover .MuiSlider-rail,
+.my-slider:active .MuiSlider-thumb,
+.my-slider:active .MuiSlider-rail {
+  pointer-events: none;
+  outline: none;
+}

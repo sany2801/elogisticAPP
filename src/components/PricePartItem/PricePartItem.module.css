@@ -1,0 +1,15 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-self: stretch;
+  color: var(--Grey-800, #0F0F0F);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Titillium Web;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.078px;
+}

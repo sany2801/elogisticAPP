@@ -1,0 +1,94 @@
+*{
+    /* border: 1px solid saddlebrown ; */
+}
+
+h3{
+    padding: 0;
+    margin: 0;
+}
+
+strong{
+    font-weight: bold; /* Firefox fix*/
+}
+
+.item_wrapper{
+    cursor: pointer;
+    width: 100%;
+    padding: 32px;
+    background-color: #ffffff;
+    position: relative;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    border: 1px solid #F0F0F0;
+}
+.infoItem{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+.titleItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.notification_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  8px 16px;
+    border-left: 2px solid  #D9BF98;
+    background:  #FAF7F2;
+
+}
+.notification{
+    display: flex;
+    align-items: center;
+}
+
+.notification_img{
+    margin-right: 16px;
+}
+
+
+button{
+    font-size: 14px;
+    cursor: pointer;
+    color:#878787;
+    border: none;
+    background: transparent;
+}
+
+.message {
+    font-family: Noto Sans, serif;
+    color: rgba(92, 92, 92);
+    padding: 8px 8px 8px 8px;
+    border-left: 2px solid  #D0AC80;
+}
+
+.save_button{
+    display: none;
+}
+
+.save_button_active {
+    display: block;
+    width: 96px;
+    height: 32px;
+    margin-right: 16px;
+    padding: 0 32px;
+    color: #FFF;
+    background-color: #BE8951;
+    border-radius: 2px;
+}
+
+.button_wrapper{
+display: flex;
+
+}
+
+@media (max-width: 1200px) {
+    .item_wrapper{
+        padding: 16px 32px;
+    }
+}

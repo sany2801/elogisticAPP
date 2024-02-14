@@ -1,0 +1,93 @@
+.item {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-self: stretch;
+  border-bottom: 1px solid #F0F0F0;
+}
+
+.num {
+  color: var(--second-text, #747474);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Titillium Web;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.078px;
+}
+
+.name {
+  color: var(--Grey-800, #0F0F0F);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Titillium Web;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+}
+
+#imgPlaceHolder {
+  border-radius: var(--Corner-radius-S, 4px);
+  background: #D9D9D9;
+  height: 256px;
+  width: 424px;
+  margin-bottom: 24px;
+}
+
+.imgWrap {
+  border-radius: var(--Corner-radius-S, 4px);
+  height: 256px;
+  width: 424px;
+  margin-bottom: 24px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+#img {
+  height: 100%;
+  object-fit: contain;
+}
+
+#itemName {
+  margin-bottom: 4px;
+  color: var(--text, #161616);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Titillium Web;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+#itemParams {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin-bottom: 12px;
+  color: var(--second-text, #747474);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Titillium Web;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.078px;
+}
+
+#comment {
+  width: 100%;
+  color: var(--Grey-800, #0F0F0F);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Titillium Web;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.078px;
+}

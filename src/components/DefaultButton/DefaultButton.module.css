@@ -1,0 +1,30 @@
+.default_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #D0AC80;
+  background: #D0AC80;
+  transition: .2s;
+  font-family: "Noto Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+}
+
+.default_button:hover {
+  background: #cfa066;
+}
+
+.default_button:disabled,
+.default_button:disabled:hover {
+  cursor: default;
+  color: #B7B7B7;
+  border: 1px solid #F0F0F0;
+  background: #F0F0F0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);
+}

@@ -1,0 +1,71 @@
+#wrp {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 4px;
+  border: 1px solid #F0F0F0;
+  background: #FFF;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);
+  margin-bottom: 24px;
+}
+
+#wrp span {
+  color: #3F3F3F;
+  font-family: Titillium Web, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+#date {
+  position: relative;
+  width: 350px;
+  display: flex;
+  padding: 16px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 4px;
+  border: 1px solid #CFCFCF;
+  background: #FFF;
+}
+
+.rw {
+  display: flex;
+  align-items: center;
+}
+
+#dayOfTheWeek {
+  width: min-content;
+  color: #747474;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Noto Sans, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+#cls,
+#edit {
+  cursor: pointer;
+  position: absolute;
+  opacity: .5;
+}
+
+#cls:hover,
+#edit:hover {
+  opacity: 1;
+}
+
+#cls {
+  left: 305px;
+}
+
+#edit {
+  left: 308px;
+  top: 50px;
+}

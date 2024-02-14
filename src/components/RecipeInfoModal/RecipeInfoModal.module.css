@@ -1,0 +1,47 @@
+#recipeWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+
+#recipeTitle {
+  color:  #161616;
+  font-family: Titillium Web, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+#recipeForm{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.recipeWr{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.recipeInput {
+  border-radius:  4px;
+  border: 1px solid  #F0F0F0;
+  background:  #FFF;
+  width: 400px;
+  padding: 10px;
+}
+
+.recipeLabel {
+  color:  #161616;
+  font-family: Titillium Web, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}

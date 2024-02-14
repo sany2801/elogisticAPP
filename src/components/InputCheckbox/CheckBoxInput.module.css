@@ -1,0 +1,33 @@
+.policy_section{
+    display: flex;
+    align-items:center;
+    margin-bottom: 24px;
+}
+.policy_section input{
+    display: none;
+}
+.policy_section label{
+    margin-left: 24px;
+}
+.policy_section label::before{
+    content:"";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #F0F0F0;
+    background-color:#ffffff;
+    border-radius:33%;
+    left: 0;
+}
+.tittlePolicy{
+    font-size: 12px;
+    color: #747474;
+    line-height: 14px;
+}
+#policy:checked + label::before{
+    background-image:url(../../images/TickSquarePolicy.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    border: 1px solid #D0AC80;
+}

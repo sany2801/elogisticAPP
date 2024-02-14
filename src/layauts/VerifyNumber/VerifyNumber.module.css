@@ -1,0 +1,111 @@
+.notificationVerifyNumber {
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.popup_phone {
+    position: absolute;
+    bottom: 110%;
+    left: -77px;
+    width: 296px;
+    height: 64px;
+    padding: 16px 18px 16px 18px;
+
+}
+
+.verifyNumberBtn {
+    background-color: #d0ac80;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    width: 124px;
+    height: 30px;
+    font-family: Noto Sans, serif;
+    color: #ffffff;
+    position: relative;
+    cursor: pointer;
+}
+
+.VerifyNumberMessage {
+    position: relative;
+    font-family: Noto Sans, serif;
+    color: rgba(92, 92, 92);
+    padding: 10px 0 10px 10px;
+}
+
+.VerifyNumberMessage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #d0ac80;
+}
+
+.form_verify_phone {
+    width: 480px;
+    height: 260px;
+    background-color: #ffffff;
+    margin: 40px;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.verify_heading {
+    padding-bottom: 10px;
+}
+
+.verify_message {
+    font-family: Noto Sans, serif;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 32px;
+}
+
+.form_verify-phone div input{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+
+  }
+  
+  .input_code{
+    width: 32px;
+    height: 40px;
+    border: none;
+    border-radius:4px;
+    background-color: #F0F0F0;
+      font-size: 16px;
+      font-family: Noto Sans, serif;
+      text-align: center;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 20px;
+  }
+  
+  .input_code:focus{
+    border: none;
+    background-color: #F0F0F0
+    
+  }
+
+
+.form_verify_phone div{
+    display: flex;
+    justify-content: space-between;
+    width: 272px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    position: relative;
+  }
+

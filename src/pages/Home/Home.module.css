@@ -1,0 +1,8 @@
+*{
+    /* border: 1px solid black;  */
+}
+
+.home_page {
+    display: flex;
+    background-color: #FAFAFA
+}

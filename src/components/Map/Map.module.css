@@ -1,0 +1,109 @@
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+#info {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+
+#map_container {
+  overflow: hidden;
+  width: 1024px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+#input_frame {
+  position: relative;
+}
+
+#map_info {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+#icon {
+  cursor: pointer;
+  position: absolute;
+  top: 6px;
+  left: 12px;
+}
+
+#close_icon {
+  transition: .2s;
+  opacity: 0.5;
+  position: absolute;
+  cursor: pointer;
+  top: 4px;
+  left: 792px;
+}
+
+#close_icon:hover {
+  opacity: 1;
+}
+
+#map_info h2 {
+  color:  #3F3F3F;
+  font-family: Titillium Web, serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 12px;
+}
+
+#mai_info p {
+  color:  #3F3F3F;
+  font-family: Noto Sans, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+#address_input {
+  padding-left: 44px;
+  padding-right: 48px;
+  border-radius: 4px;
+  border: 1px solid  #F0F0F0;
+  background:  #FFF;
+  width: 830px;
+  height: 32px;
+  color:  #161616;
+  margin-right: 14px;
+  font-family: Noto Sans, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+#address_input:focus {
+  border: 1px solid  #D0AC80;
+}
+
+#choose_btn {
+  cursor: pointer;
+  border-radius: 3px;
+  color: white;
+  height: 32px;
+  width: 114px;
+}
+
+.not_active_choose_btn {
+  border-color: #CFCFCF;
+  background: #CFCFCF;
+}
+
+.active_choose_btn {
+  border-color: #D0AC80;
+  background: #D0AC80;
+}
+
+#map {
+  height: 416px;
+}

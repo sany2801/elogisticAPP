@@ -1,0 +1,133 @@
+#SendAddrWrap {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  gap: 32px;
+  border-radius:  4px;
+  border: 1px solid  #F0F0F0;
+  background:  #FFF;
+  margin-bottom: 24px;
+}
+
+#SendAddrWrap header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#SendAddrWrap header span,
+#filledSenderAddress header span {
+  color:  #3F3F3F;
+  font-family: Titillium Web, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+#headerButtons {
+  display: flex;
+  gap: 16px;
+}
+
+#sendAddrCont {
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 35px 40px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+#blackLine {
+  background:  #F0F0F0;
+  height: 1px;
+}
+
+#elevatorInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#elevatorInfo span {
+  color:  #0F0F0F;
+  font-family: Titillium Web, serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: -0.078px;
+  text-transform: uppercase;
+}
+
+#elevatorInfo label {
+  display: flex;
+  gap: 16px;
+  flex-wrap: nowrap;
+  align-items: center;
+  cursor: pointer;
+}
+
+#inputsWrap {
+  display: flex;
+  gap: 200px;
+}
+
+.inpRadio {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.inpRadio:checked {
+  border-color: #D0AC80;
+  border-width: 6px;
+}
+
+.inpRadio:not(:checked) {
+  border-color: #D2D2D2;
+  border-width: 1px;
+}
+
+#errorMassage {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  gap: 10px;
+  border-left: 2px solid  #D83F3F;
+  background: #FAF3F2;
+  color:  #3F3F3F;
+  font-family: Noto Sans, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+#filledSenderAddress {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius:  4px;
+  border: 1px solid  #F0F0F0;
+  background: #FFF;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 750px) {
+  #inputsWrap {
+    display: flex;
+    gap: 100px;
+  }
+}

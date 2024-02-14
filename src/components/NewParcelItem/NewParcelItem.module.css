@@ -1,0 +1,47 @@
+.newParcelItem {
+  cursor: pointer;
+  display: flex;
+  padding: 32px;
+  justify-content: flex-start;
+  gap: 12px;
+  border-radius:  4px;
+  border: 1px solid  #F0F0F0;
+  background:  #FFF;
+  margin-bottom: 24px;
+  transition: .2s;
+}
+
+.newParcelItem:hover {
+  border-color: #3F3F3F;
+}
+
+.disabled_item {
+  cursor: default;
+  background-color: #F0F0F0;
+}
+
+.disabled_item:hover {
+  border-color: #F0F0F0;
+}
+
+.newParcelItem_title {
+  color:  #3F3F3F;
+  font-family: Titillium Web, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.disabled_title {
+  color: #9d9d9d;
+}
+
+.newParcelItem_plus {
+  width: 24px;
+  height: 24px;
+}
+
+.disabled_plus {
+  display: none;
+}

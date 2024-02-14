@@ -1,0 +1,53 @@
+.svg_container{
+    position: relative;
+    cursor: pointer;
+}
+
+.popup {
+    position: absolute;
+    bottom: 110%;
+    right: -110px;
+    width: 170px;
+    height: 72px;
+    transform: translateX(-50%);
+    fill:  #FFF;
+    filter: drop-shadow(0 4px 32px rgba(0, 0, 0, 0.16)) drop-shadow(0 0 4px rgba(0, 0, 0, 0.04));
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    z-index: 1;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Noto Sans, serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.popup:after{
+    content: " ";
+    border-left: solid transparent 10px;
+    border-right: solid transparent 10px;
+    fill:  #FFF;
+    filter: drop-shadow(0px 4px 32px rgba(0, 0, 0, 0.16)) drop-shadow(0 0 4px rgba(0, 0, 0, 0.04));
+    border-top: solid #FFF 10px;
+    bottom: -5px;
+    height: 0;
+    left: 75%;
+    margin-left: 0;
+    position: absolute;
+    width: 0;
+
+}
+
+.popup_phone {
+    position: absolute;
+    bottom: 110%;
+    left: -77px;
+    width: 296px;
+    height: 64px;
+    padding: 16px 18px 16px 18px;
+}
+
+

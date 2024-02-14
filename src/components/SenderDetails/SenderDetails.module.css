@@ -1,0 +1,8 @@
+#nextBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#emptySpace{
+  height: 24px;
+}

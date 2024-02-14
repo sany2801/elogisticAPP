@@ -1,0 +1,33 @@
+.subTitle {
+  color: var(--second-text, #747474);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Noto Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.detWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: .2s;
+}
+
+.hovered {
+  cursor: pointer;
+}
+
+.hovered:hover {
+  border-color: #878787;
+}
+
+.hovered,
+.detail {
+  width: 264px;
+  padding: 16px 20px;
+  border-radius: 4px;
+  border: 1px solid var(--Grey-100, #CFCFCF);
+  background: var(--white, #FFF);
+}

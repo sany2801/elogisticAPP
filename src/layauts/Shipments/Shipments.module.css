@@ -1,0 +1,53 @@
+#tabs_wrap {
+  display: flex;
+  gap: 24px;
+  position: relative;
+}
+
+#greyLine {
+  top: 28px;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: #F0F0F0;
+}
+
+.tab {
+  z-index: 1;
+  padding-bottom: 4px;
+  cursor: pointer;
+  color: #CFCFCF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: none;
+  width: min-content;
+}
+
+.activeTab {
+  border-bottom: 2px solid #D0AC80;
+  cursor: default;
+  color: #D0AC80;
+}
+
+.page_wrap {
+  padding: 40px 24px;
+  width: 100%;
+}
+
+#shipments_header {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+#shipments_header button {
+  margin-left: auto;
+}
+
+#load_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}

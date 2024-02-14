@@ -1,0 +1,72 @@
+.box {
+  cursor: pointer;
+  display: flex;
+  width: 196px;
+  height: 300px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid var(--Grey-50, #F0F0F0);
+  background: var(--white, #FFF);
+  transition: .2s;
+}
+
+.box:hover {
+  border-color: #E8D9C0;
+}
+
+.boxTitle {
+  color: var(--Grey-800, #0F0F0F);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Titillium Web;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.gabarites {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.gabarite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.gabariteTitle {
+  color: var(--Grey-500, #737373);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Noto Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.gabariteValue {
+  color: var(--Grey-800, #0F0F0F);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Noto Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.imageContainer {
+  height: 188px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chosenBoxStyle,
+.chosenBoxStyle:hover {
+  border-color: #D0AC80;
+}
